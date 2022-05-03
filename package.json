@@ -9,11 +9,6 @@
     "watch": "node-sass -w src/resourses/scss/ -o src/assets/css/",
     "lint": "lint-staged"
   },
-  "husky":{
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/SotaTek-ThienVu2/nodejs_F8.git"
@@ -36,7 +31,6 @@
     "express-handlebars": "^6.0.5"
   },
   "devDependencies": {
-    "husky": "^7.0.4",
     "lint-staged": "^12.4.1",
     "morgan": "^1.10.0",
     "node-sass": "^7.0.1",
