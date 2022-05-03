@@ -1,9 +1,9 @@
 class TodoController {
   index(req, res) {
-    res.render("todo");
+    res.render('todo');
   }
   detail(req, res) {
-    res.send("NO DATA");
+    res.send('NO DATA');
   }
   submit(req, res) {
     console.log(req.body);
